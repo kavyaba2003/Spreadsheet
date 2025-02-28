@@ -1,0 +1,29 @@
+#spreadsheet {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr); /* 10 columns */
+    grid-gap: 1px;
+  }
+  
+  #spreadsheet table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+  }
+  
+  #spreadsheet td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  #formula-bar {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+  }
+  
+  button {
+    margin: 5px;
+  }
+  
